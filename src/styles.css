@@ -1,0 +1,102 @@
+html, body {
+    margin: 0;
+    background-color: #1a300d;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+* {
+    /* border: 1px solid red; */
+}
+
+/* NAVBAR */
+nav {
+    filter: drop-shadow(1px 1px 1px black);
+}
+nav ul {
+    /* background-color: lightgreen; */
+    list-style-type: none;
+    text-align: center; 
+    padding: 0;
+    margin: 0;
+  }
+  
+nav li {
+    display: inline-block;
+    padding: 20px;
+  }
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+li:hover {
+    background-color: #a8b5a0;
+    color: #254512;
+}
+
+a:hover {
+    color: #254512;
+}
+
+/* HOME */
+h1, h2, h3, h4 {
+    text-align: center;
+    margin: 0px;
+}
+
+.bitmoji {
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+    width: 110px;
+}
+
+section {
+    margin-bottom: 10px;
+}
+
+.home {
+    background-image: url(img/tropical-plant-leaves.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: drop-shadow(1px 1px 1px black);
+}
+
+.name-job-heading {
+    background-color: rgba(0, 0, 0, .6);
+    padding: 30px;
+}
+
+#location {
+    padding-top: 0px;
+}
+
+.about {
+    margin: 1px 50px;
+    line-height: 2;
+}
+
+
+.skills {
+    background-color: #a8b5a0;
+    color: black;
+    padding: 30px 0px;
+}
+
+.skills-img {
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-info li {
+    display: inline;
+    padding: 10px;
+}
